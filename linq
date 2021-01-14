@@ -13,3 +13,8 @@ Most of the Linq methods are created using extension methods.
 Extension methods
 Extension methods in C# allow us to define a static method that appears to be a member of another type, any type, classes, interfaces, 
   structs, even sealed types that we can't extend using inheritance. 
+
+Lambda expression
+Lambda Expressions are just another way to create executable code. 
+They are a way to define a method, but that method doesn't have to be an instance of method or a static named method on a class. 
+It's something that can easily be in‑lined in a short expression
