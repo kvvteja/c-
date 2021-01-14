@@ -9,6 +9,7 @@ Compile time safety of queries: It provides type checking of objects at compile 
 IntelliSense Support: LINQ provides IntelliSense for generic collections.
 Shaping data: You can retrieve data in different shapes.
 
+Most of the Linq methods are created using extension methods.
 Extension methods
 Extension methods in C# allow us to define a static method that appears to be a member of another type, any type, classes, interfaces, 
   structs, even sealed types that we can't extend using inheritance. 
