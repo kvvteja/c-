@@ -1,0 +1,30 @@
+Object:
+An object is an instance of a class. 
+Its basically a block of memory that has been allocated and configured according to the blueprint.
+A program can create many objects of the same class
+
+Class:
+A class is the definition of an object (or) like a blueprint of a specific object.
+It does not actually become an object until it is instantiated. 
+It defines the kinds of data and the functionality their objects will have.
+Since an abstract class can't be instantiated, no object of that type can created. A sub class would need to be defined in order for an object to create.
+
+Interface: 
+An interface is a completely "abstract class", which can only contain abstract methods and properties (with empty bodies):
+To access the interface methods, the interface must be "implemented" (kinda like inherited) by another class
+
+example
+interface TestInterface
+    {
+        void GetGetMember();
+        string Name
+        {
+            get;
+            set;
+        }
+    }
+
+Static class:
+A static class can only contain static data members, static methods, and a static constructor.
+It is not allowed to create objects of the static class. 
+Static classes are sealed, means you cannot inherit a static class from another class.
