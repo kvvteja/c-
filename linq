@@ -1,4 +1,6 @@
 LINQ (Language Integrated Query) is uniform query syntax in C# and VB.NET to retrieve data from different sources and formats.
+1. Query syntax 
+2. Method syntax
 
 Advantages of LINQ
 Familiar language: Developers don’t have to learn a new query language for each type of data source or data format.
