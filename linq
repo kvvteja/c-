@@ -52,3 +52,4 @@ Link to check whether operators are Immediate Execution,	Deferred Streaming Exec
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/classification-of-standard-query-operators-by-manner-of-execution
 
 ***** Thenby, ThenbyDescending --  to do secondary and multiple sorts (order by value -- if value is same for two objects then sort by name)
+-- this differs in query and execution method syntax
