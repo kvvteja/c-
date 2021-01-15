@@ -127,3 +127,8 @@ Abstraction is set focus on the object instead of how it does it.	Encapsulation 
 Abstraction is outer layout in terms of design.
 For Example: - Outer Look of a iPhone, like it has a display screen.	Encapsulation is inner layout in terms of implementation.
 For Example: - Inner Implementation detail of a iPhone, how DisplayScreen are connect with each other using circuits
+
+Polymorphism:
+Polymorphism enables us to invoke derived class methods using a base class reference during run time.
+Polymorphism is one of the primary pillar of OOPs
+Polymorphism can be achieved with declaring virtual in base class methods and overriding the derived class methods 
