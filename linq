@@ -35,6 +35,8 @@ All of those operations ultimately have to iterate over the results that come ou
 So one obvious question you might have is how do I know if a query operator like where offers deferred execution because not all the LINQ operators behave this way? 
 Let me show you one way to know if an operator is deferred or not, and also show you why deferred execution can be good for us.
 
+Example of deferred execution methods: Where, Orderby...
+Example of non-deferred execution methods: Count, ToList, ToArray, ToString..
 To know whether method is deferred execution:
 Enumerable is a static class which implements all linq methods. In MSDN page of linq method if we scroll to the remarks.
 Then we can see This method is implemented by using deferred execution.
