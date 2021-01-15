@@ -115,3 +115,15 @@ Static class:
 A static class can only contain static data members, static methods, and a static constructor.
 It is not allowed to create objects of the static class. 
 Static classes are sealed, means you cannot inherit a static class from another class.
+
+Difference between Abstraction and Encapsulation
+ 
+Abstraction is a process. It is the act of identifying the relevant qualities and behaviors an object should possess. Encapsulation is the mechanism by which the abstraction is implemented.
+
+Abstraction	Encapsulation
+Abstraction solves the problem in the design level.	Encapsulation solves the problem in the implementation level.
+Abstraction is used for hiding the unwanted data and giving onlyrelevant data.	Encapsulation is hiding the code and data into a single unit toprotect the data from outer world.
+Abstraction is set focus on the object instead of how it does it.	Encapsulation means hiding the internal details or mechanics of howan object does something.
+Abstraction is outer layout in terms of design.
+For Example: - Outer Look of a iPhone, like it has a display screen.	Encapsulation is inner layout in terms of implementation.
+For Example: - Inner Implementation detail of a iPhone, how DisplayScreen are connect with each other using circuits
