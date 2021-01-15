@@ -131,4 +131,6 @@ For Example: - Inner Implementation detail of a iPhone, how DisplayScreen are co
 Polymorphism:
 Polymorphism enables us to invoke derived class methods using a base class reference during run time.
 Polymorphism is one of the primary pillar of OOPs
-Polymorphism can be achieved with declaring virtual in base class methods and overriding the derived class methods 
+Polymorphism can be achieved with declaring virtual in base class methods and overriding the derived class methods (Method overriding).
+If we declare new instead of override in derived class then it performs method hiding.
+
