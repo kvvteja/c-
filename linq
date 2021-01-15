@@ -48,3 +48,5 @@ At that point, it will yield the result and execution can jump out of the Where 
 Streaming Operators like Where won't look after all the values(returns the value when it matches the predicate).
 Non-streaming Operators like Order by, order by descending will look after all values(won't return the value when it matches the predicate).
 
+Link to check whether operators are Immediate Execution,	Deferred Streaming Execution and	Deferred Non-Streaming Execution
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/classification-of-standard-query-operators-by-manner-of-execution
