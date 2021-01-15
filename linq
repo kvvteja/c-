@@ -53,3 +53,5 @@ https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/c
 
 ***** Thenby, ThenbyDescending --  to do secondary and multiple sorts (order by value -- if value is same for two objects then sort by name)
 -- this differs in query and execution method syntax
+
+**** So Any, All, and Contains operaters, they will allow you to ask questions about your data set to determine if something is in there that matches some predicate.
