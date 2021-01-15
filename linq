@@ -40,3 +40,8 @@ Example of non-deferred execution methods: Count, ToList, ToArray, ToString..
 To know whether method is deferred execution:
 Enumerable is a static class which implements all linq methods. In MSDN page of linq method if we scroll to the remarks.
 Then we can see This method is implemented by using deferred execution.
+
+The operators that offer deferred execution can fall into one of two additional categories.
+These operators can either be streaming operators or non‑streaming operators. Where is an example of a streaming operator. 
+A streaming operator only needs to read through the source data, like the sequence of movies up into the point where it produces a result.
+At that point, it will yield the result and execution can jump out of the Where method, and we can process that single item.
