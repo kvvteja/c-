@@ -45,3 +45,6 @@ The operators that offer deferred execution can fall into one of two additional 
 These operators can either be streaming operators or non‑streaming operators. Where is an example of a streaming operator. 
 A streaming operator only needs to read through the source data, like the sequence of movies up into the point where it produces a result.
 At that point, it will yield the result and execution can jump out of the Where method, and we can process that single item.
+Streaming Operators like Where won't look after all the values(returns the value when it matches the predicate).
+Non-streaming Operators like Order by, order by descending will look after all values(won't return the value when it matches the predicate).
+
